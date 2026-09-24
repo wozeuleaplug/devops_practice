@@ -1,0 +1,7 @@
+services:
+  web-api:
+    build: .
+    container_name: python_practice_container
+    ports:
+      - "8000:8000"
+    restart: always
